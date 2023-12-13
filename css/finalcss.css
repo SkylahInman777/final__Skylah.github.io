@@ -1,0 +1,180 @@
+
+@font-face {
+font-family:blogfont;
+src:url('../fonts/blogfont.ttf');}
+
+body{ 
+background-color:lightblue;
+border: solid 20px black;
+}
+
+
+
+div.title{
+		font-family:blogfont;}
+
+div.mybox{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+border: solid 20px white;
+}
+
+div.img1{
+flex:1;
+border: solid 20px white;
+}
+
+div.text1{
+flex:1;
+border: solid 5px black;
+}
+
+div.img2{
+flex:1;
+border: solid 20px white;
+}
+
+div.img2{
+flex:1;
+border: solid 20px white;
+}
+
+div.imgcluster{
+flex:1;
+border: solid 5px black;
+margin:20px;
+padding:30px;
+text-align:center;
+font-family:blogfont;
+border: solid 20px white;
+
+}
+ 
+
+
+
+
+div.mynav{ 
+padding:20px; 
+margin:0 auto;
+text-align:center;
+border: solid 5px black;
+font-family:blogfont;
+word-spacing:100px
+}
+
+div.title{
+text-align:center;
+  border-bottom: 1px solid black;
+}
+
+div.text1{
+border-style:solid; 
+background-color:white; 
+border-width:5px 5px 5px 5px;
+border-color:black;
+padding:10px; 
+margin:0 auto;
+}
+
+p{
+text-align:center;
+background-color:white;
+}
+
+h3{
+text-align:center;
+}
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        article {
+            margin-bottom: 30px;
+        }
+
+
+						img#pic1{
+						width:100%;
+						height:auto;
+						}
+						
+						img#pic2{
+
+						width:100%;
+						height:auto;
+						}
+						
+						
+						img#pic3{
+							width:100%;
+						height:auto;
+						border: solid 20px white;
+
+								}
+						
+						img#p1{
+							display:grid
+						
+						}
+						
+						
+						img#goggle{
+							width:100%;
+						height:auto;
+						border: solid 20px white;
+
+								}
+								
+								img#claws{
+							width:100%;
+						height:auto;
+						border: solid 20px white;
+
+								}
+							
+							
+							img#crazyy{
+							width:100%;
+						height:auto;
+						border: solid 20px white;
+
+								}
+								
+								
+								
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
